@@ -11,7 +11,7 @@ variable "git_repo" {
       repo1 = {
         name           = "app1"
         uri            = "https://github.com/gmshamca/MicroIngramTerraformmNew"
-        branch         = "master"
+        branch         = "main"
     },
  
     repo2 = {
