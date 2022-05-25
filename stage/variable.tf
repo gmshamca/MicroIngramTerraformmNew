@@ -10,12 +10,12 @@ variable "git_repo" {
   default = {
       repo1 = {
         name           = "app1"
-        uri            = "https://github.com/anup1987/spring-boot-hello-world-1"
+        uri            = "https://github.com/gmshamca/MicroIngramTerraformmNew"
         branch         = "master"
     },
  
     repo2 = {
         name              =  "app2"
-        uri               = "https://github.com/anup1987/cloud-build-samples/tree/main/maven-example"
+        uri               = "https://github.com/gmshamca/gmsha-terraform-cloud"
         branch            = "main"
    }
