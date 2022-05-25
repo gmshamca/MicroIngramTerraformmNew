@@ -11,13 +11,13 @@ variable "git_repo" {
   default = {
       repo1 = {
         name           = "app1"
-        uri            = "https://github.com/gmshamca/MicroIngramTerraformmNew.git"
+        uri            = "https://github.com/gmshamca/MicroIngramTerraformmNew"
         branch         = "main"
     },
  
     repo2 = {
         name              = "app2"
-        uri               = "https://github.com/gmshamca/gmsha-terraform-cloud.git"
+        uri               = "https://github.com/gmshamca/gmsha-terraform-cloud"
         branch            = "main"
    }
  }
