@@ -19,5 +19,10 @@ variable "git_repo" {
         name              = "app2"
         uri               = "https://github.com/gmshamca/MicroIngramTerraformmNew"
         branch            = "main"
+   },
+    repo3 = {
+        name              = "app3"
+        uri               = "https://github.com/gmshamca/helloworldmaven"
+        branch            = "main"
    }
  }
