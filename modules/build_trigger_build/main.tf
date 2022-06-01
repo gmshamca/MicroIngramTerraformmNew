@@ -2,8 +2,8 @@
 resource "google_cloudbuild_trigger" "manual-trigger" {
 #   for_each  = var.git_repo
 #   name        = each.value.name
-      name = var.repo_type
-      repo = var.git_repo
+      repo_type = var.repo_type
+      git_repo = var.git_repo
   
 #   source_to_build {
 #     uri       = var.uri
