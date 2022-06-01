@@ -4,7 +4,7 @@ variable "repo_type" {
 
 }
 
-variable "repo" {
+variable "repo_name" {
   type = string
 
  
