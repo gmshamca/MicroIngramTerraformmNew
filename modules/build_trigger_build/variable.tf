@@ -2,7 +2,6 @@
 variable "repo_type" {
   type        = string
   description = "The name of the repo Type"
-  default = "GITHUB"
 }
 
 variable "git_repo" {
@@ -10,19 +9,15 @@ variable "git_repo" {
   type = map
   default = {
       repo1 = {
-        name           = "app1"
-        uri            = "https://github.com/gmshamca/gmsha-terraform-cloud"
+        name           = "git1"
+        uri            = "https://github.com/gmshamca/spring-build--trigger"
         branch         = "main"
-    },
+    }
+  }
+} 
  
-    repo2 = {
-        name              = "app2"
-        uri               = "https://github.com/gmshamca/MicroIngramTerraformmNew"
-        branch            = "main"
-   },
-    repo3 = {
-        name              = "app3"
-        uri               = "https://github.com/gmshamca/helloworldmaven"
-        branch            = "main"
-   }
- }
+#     repo2 = {
+#         name              =  "git2"
+#         uri               = "https://github.com/gmshamca/helloworldmaven"
+#         branch            = "main"
+#    }
