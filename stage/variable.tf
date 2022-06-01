@@ -1,10 +1,19 @@
 
-variable "repo_type" {
-  defualt = "repo1"
+ariable "key" {
+  type = "string"
 }
 
-variable "repo_name" {
-  defualt = "repo2"
- 
+# variable "images" {
+#   type = "map"
+
+#   default = {
+#     us-east-1 = "image-1234"
+#     us-west-2 = "image-4567"
+#   }
+# }
+
+variable "zones" {
+  type = "list"
+  default = ["us-east-1a", "us-east-1b"]
 }
 
