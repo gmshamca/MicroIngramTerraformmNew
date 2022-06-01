@@ -13,11 +13,13 @@ variable "git_repo" {
         uri            = "https://github.com/gmshamca/spring-build--trigger"
         branch         = "main"
     }
-  }
-} 
+  
  
-#     repo2 = {
-#         name              =  "git2"
-#         uri               = "https://github.com/gmshamca/helloworldmaven"
-#         branch            = "main"
-#    }
+ 
+    repo2 = {
+        name              =  "git2"
+        uri               = "https://github.com/gmshamca/helloworldmaven"
+        branch            = "main"
+   }
+  }
+}
