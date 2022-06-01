@@ -1,5 +1,5 @@
 
-ariable "key" {
+variable "key" {
   type = "string"
 }
 
