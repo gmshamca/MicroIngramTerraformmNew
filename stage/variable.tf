@@ -4,7 +4,7 @@ variable "repo_type" {
 }
 
 variable "repo_name" {
-  defualt = "repo2"]
+  defualt = "repo2"
  
 }
 
