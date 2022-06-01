@@ -2,18 +2,21 @@
 resource "google_cloudbuild_trigger" "manual-trigger" {
 #   for_each  = var.git_repo
 #   name        = each.value.name
+      repo = repo_type
+      git = git_repo
   
-  source_to_build {
-    uri       = var.uri
-    ref       = var.branch
-    repo_type = var.repo_type
-  }
+#   source_to_build {
+#     uri       = var.uri
+#     ref       = var.branch
+#     repo_type = var.repo_type
+#   }
 
-  git_file_source {
+#   git_file_source {
 #     path      = "cloudbuild.yaml"
-    uri       =  var.uri
-    revision  =  var.branch
-    repo_type = var.repo_type
-  }
+#     uri       =  var.uri
+#     revision  =  var.branch
+#     repo_type = var.repo_type
+#   }
+  
 
 }
