@@ -4,7 +4,7 @@ variable "repo_type" {
   description = "The name of the repo Type"
 }
 
-variable "git_details" {
+variable "repo_details" {
   type = string
   description = "Git Repository Details"
 
