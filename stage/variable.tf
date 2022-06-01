@@ -1,6 +1,6 @@
 
 variable "key" {
-  type = "string"
+  type = string
 }
 
 # variable "images" {
