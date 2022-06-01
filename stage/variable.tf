@@ -1,12 +1,10 @@
 
 variable "repo_type" {
-  type        = string
-
+  defualt = "repo1"
 }
 
 variable "repo_name" {
-  type = string
-
+  defualt = "repo2"]
  
 }
 
