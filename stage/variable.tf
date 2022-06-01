@@ -6,7 +6,7 @@ variable "repo_type" {
 
 variable "repo_details" {
   type = string
-  description = "Git Repository Details"
+#   description = "Git Repository Details"
  
 }
 
