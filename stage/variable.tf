@@ -6,14 +6,14 @@ variable "repo_type" {
 
 variable "git_repo" {
   description = "Git Repository Details"
-  type = map
-  default = {
-      repo1 = {
-        name           = "git1"
-        uri            = "https://github.com/gmshamca/spring-build--trigger"
-        branch         = "main"
-    }
-  }
+  type = string
+#   default = {
+#       repo1 = {
+#         name           = "git1"
+#         uri            = "https://github.com/gmshamca/spring-build--trigger"
+#         branch         = "main"
+#     }
+#   }
 } 
  
 #     repo2 = {
