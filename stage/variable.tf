@@ -1,7 +1,7 @@
 
 variable "repo_type" {
   type        = string
-  description = "The name of the repo Type"
+#   description = "The name of the repo Type"
 }
 
 variable "repo_details" {
