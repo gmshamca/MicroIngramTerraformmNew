@@ -9,13 +9,13 @@ variable "git_repo" {
   type = map
   default = {
       repo1 = {
-        name           = "app1"
-        uri            = "https://github.com/gmshamca/gmsha-terraform-cloud"
+        name           = "git1"
+        uri            = "https://github.com/gmshamca/spring-build--trigger"
         branch         = "main"
     },
  
     repo2 = {
-        name              =  "app2"
-        uri               = "https://github.com/gmshamca/MicroIngramTerraformmNew"
+        name              =  "git2"
+        uri               = "https://github.com/gmshamca/helloworldmaven"
         branch            = "main"
    }
