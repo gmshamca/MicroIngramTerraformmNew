@@ -5,8 +5,9 @@ variable "repo_type" {
 }
 
 variable "git_repo" {
-  description = "Git Repository Details"
   type = string
+  description = "Git Repository Details"
+  
 #   default = {
 #       repo1 = {
 #         name           = "git1"
