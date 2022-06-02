@@ -17,7 +17,7 @@ resource "google_cloud_run_service" "deployrun" {
     google_project_service.run
   ]
   
-   name     = "fuckgfgfuuus"
+   name     = var.deploy_run_service_name
    location = var.location
   
   template {
