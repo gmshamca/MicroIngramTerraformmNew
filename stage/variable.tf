@@ -12,7 +12,7 @@ variable "git_repo" {
       repo1 = {
         name           = "app1"
         uri            = "https://github.com/gmshamca/spring-build--trigger"
-        branch         = "master"
+        branch         = "main"
         imagename      = "app1-repo"
     },
  
