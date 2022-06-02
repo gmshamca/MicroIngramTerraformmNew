@@ -1,6 +1,6 @@
-provider "google" {
-   project_id = var.project_id
-}
+# provider "google" {
+#    project_id = var.project_id
+# }
 
 data "google_container_registry_image" "gcr" {
   name = var.imagename
