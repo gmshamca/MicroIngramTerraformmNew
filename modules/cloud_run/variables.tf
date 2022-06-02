@@ -14,7 +14,7 @@ variable "imagename" {
   description = "Name of the image"
 }
 
-variable "project_id" {
-  type        = string
-  description = "Project ID"
-}
+# variable "project_id" {
+#   type        = string
+#   description = "Project ID"
+# }
