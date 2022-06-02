@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "ingramterraform"
+   bucket  = "microingramterraform"
    prefix  = "terraform/state"
  }
 }
