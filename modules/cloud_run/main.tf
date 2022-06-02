@@ -19,11 +19,12 @@ resource "google_cloud_run_service" "deployrun" {
   
    name     = var.deploy_run_service_name
    location = var.location
+   autogenerate_revision_name = true
   
   template {
     spec {
       containers {
-        image = "gcr.io/sapient-poet-351315/new-cr-image@sha256:cabd0c4edba33aff6f70370c49b2e9c3c41d88573bd36c338e07385fec01ab52"
+       image = data.google_container_registry_image.gcr.name
       }
     }
   }
