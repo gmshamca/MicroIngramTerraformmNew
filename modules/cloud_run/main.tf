@@ -23,7 +23,7 @@ resource "google_cloud_run_service" "deployrun" {
   template {
     spec {
       containers {
-        image = "gcr.io/ingrammicroproject/mavenproject@sha256:3ccda021425a6d4240f2b46480d7f006c641629b0f6c7f6f55e42ec7d7c256bf"
+        image = "gcr.io/sapient-poet-351315/spring-repo@sha256:78caeb932a109680baf5b01a325ac3e20f7a8532a12f0b040f8492ab162b878d"
       }
     }
   }
