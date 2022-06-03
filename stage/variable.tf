@@ -10,14 +10,14 @@ variable "git_repo" {
   type = map
   default = {
       repo1 = {
-        name           = "spring-boot-repo"
+        name           = "springboot"
         uri            = "https://github.com/gmshamca/spring-build--trigger"
         branch         = "main"
         imagename      = "spring-project"
     },
  
        repo2 = {
-        name              =  "maven-repo"
+        name              =  "javamaven"
         uri               = "https://github.com/gmshamca/helloworld"
         branch            = "main"
         imagename         =  "maven-project"
