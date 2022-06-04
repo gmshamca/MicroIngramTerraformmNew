@@ -1,4 +1,4 @@
-variable "serviceName" {
+variable "servicename" {
   type        = string
   description = "Cloud Run Service Name"
 }
