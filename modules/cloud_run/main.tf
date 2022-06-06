@@ -1,6 +1,8 @@
-# provider "google" {
+provider "google" {
+  project = "sapient-poet-351315"
+  region  = "us-central1"
 #    project_id = var.project_id
-# }
+}
 
 data "google_container_registry_image" "gcr" {
   name = var.imagename
