@@ -1,4 +1,4 @@
-module "cloud_build_trigger_run" {
+module "build-trigger_and_run" {
   for_each  = var.git_repo
   source               = "../modules/cloud_build_trigger"
   name      = each.value.name
