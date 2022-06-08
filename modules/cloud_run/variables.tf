@@ -19,4 +19,5 @@ variable "imagename" {
 variable "project_id" {
   type        = string
   description = "Project ID"
+  default="sapient-poet-351315"
 }
