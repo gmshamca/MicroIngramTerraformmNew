@@ -1,7 +1,7 @@
 variable "service-name" {
   type        = string
   description = "Cloud Run Service Name"
-  default = "ingram-spring-output"
+  default = "ingram-spring-output-service"
 }
 
 variable "location" {
