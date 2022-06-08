@@ -25,7 +25,7 @@ resource "google_cloud_run_service" "deployrun" {
     spec {
       containers {
 #        image = data.google_container_registry_image.gcr.name
-        image = "gcr.io/cloudrun/helloworld"
+        image = "gcr.io/cloudrun/ingram-spring-output"
       }
     }
   }
