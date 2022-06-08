@@ -1,7 +1,7 @@
-# variable "service-name" {
-#   type        = string
-#   description = "Cloud Run Service Name"
-# }
+variable "service-name" {
+  type        = string
+  description = "Cloud Run Service Name"
+}
 
 variable "location" {
   type        = string
