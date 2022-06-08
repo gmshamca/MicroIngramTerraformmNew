@@ -10,14 +10,14 @@ variable "git_repo" {
   default = {
       repo1 = {
         name           = "spring-boot"
-        uri            = "https://github.com/anup1987/spring-boot-hello-world-1"
+        uri            = "https://github.com/gmshamca/spring-build--trigger"
         branch         = "main"
         imagename      = "spring-repo"
     },
  
     repo2 = {
         name              =  "java-maven"
-        uri               = "https://github.com/anup1987/helloworld"
+        uri               = "https://github.com/gmshamca/helloworld"
         branch            = "main"
         imagename         =  "maven-project"
    } 
