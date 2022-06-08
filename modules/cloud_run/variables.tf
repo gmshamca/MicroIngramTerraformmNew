@@ -13,7 +13,7 @@ variable "location" {
 variable "imagename" {
   type        = string
   description = "Name of the image"
-   defualt = "ingram-spring-output-imagename"
+   default = "ingram-spring-output-imagename"
 }
 
 # variable "project_id" {
