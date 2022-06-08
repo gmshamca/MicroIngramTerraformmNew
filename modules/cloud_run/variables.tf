@@ -1,6 +1,7 @@
 variable "service-name" {
   type        = string
   description = "Cloud Run Service Name"
+  defualt = "ingram-spring-output"
 }
 
 variable "location" {
@@ -12,6 +13,7 @@ variable "location" {
 variable "imagename" {
   type        = string
   description = "Name of the image"
+   defualt = "ingram-spring-output-imagename"
 }
 
 # variable "project_id" {
