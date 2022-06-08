@@ -16,9 +16,9 @@ variable "service_details" {
     },
  
     repo2 = {
-        serviceName           =  "javamaven"
-        imagename            =  "gcr.io/sapient-poet-351315/spring-project:latest"
-        tag            =  "latest"
+        serviceName            =  "javamaven"
+        imagename              =  "gcr.io/sapient-poet-351315/maven-project:latest"
+        tag                    =  "latest"
    } 
 }
 }
