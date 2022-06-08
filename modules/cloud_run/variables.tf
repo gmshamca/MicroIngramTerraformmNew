@@ -16,7 +16,7 @@ variable "imagename" {
    default = "ingram-spring-output-imagename"
 }
 
-# variable "project_id" {
-#   type        = string
-#   description = "Project ID"
-# }
+variable "project_id" {
+  type        = string
+  description = "Project ID"
+}
