@@ -25,7 +25,7 @@ resource "google_cloud_run_service" "deployrun" {
   template {
     spec {
       containers {
-        image = "gcr.io/sapient-poet-351315/maven-project@sha256:15f5da454aa1f17fe852ffe9e5b5874076d9b7f4a19202b83a5c7ef979af6093"
+        data.google_container_registry_image.gcr.name
       }
     }
   }
