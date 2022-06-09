@@ -24,8 +24,8 @@ resource "google_cloud_run_service" "deployrun" {
   template {
     spec {
       containers {
-#        image = data.google_container_registry_image.gcr.name
-        image = "gcr.io/cloudrun/ingram-spring-output"
+       image = data.google_container_registry_image.gcr.name
+#         image = "gcr.io/cloudrun/ingram-spring-output"
       }
     }
   }
